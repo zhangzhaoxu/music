@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+body{
+    font:14px "Lucida Console", Helvetica,Arial,sans-serif;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border: solid #ffffff 1px;
+}
+
+.left{
+    position: absolute;
+    width: 15%;
+    height: 80%;
+    margin-top: 180px;
+    border:solid #fff 1px;
+}
+
+.left ul{
+    overflow: auto;
+}
+
+.left ul li{
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.left ul li.selected{
+    color: greenyellow;
+}
+
+.right{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 17%;
+    width: 83%;
+    height: 80%;
+    border:solid #ffffff 1px;
+}
+
+.type{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.type li{
+    padding: 3px;
+    border-radius: 2px;
+    list-style: none;
+    float:left;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.selected1{
+    color: #000000;
+    background-color: #ffffff;
+}
